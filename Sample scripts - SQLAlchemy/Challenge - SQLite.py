@@ -4,7 +4,7 @@ import sqlite3
 ###Create a table Users with Id, First name, Last name, Email (two of them with Gmail) and then print email column only
 
 ###create database based on kaggle dataset - as it's first time we create such database, it creates it. Aftewards, it will just connect to that db.
-connection = sqlite3.connect('challenge_1.db')
+connection = sqlite3.connect('../Test databases/challenge_1.db')
 
 cursor = connection.cursor()
 

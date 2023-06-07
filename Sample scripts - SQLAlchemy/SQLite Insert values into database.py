@@ -1,6 +1,6 @@
 import sqlite3
 
-connection = sqlite3.connect('kaggle_testset.db')
+connection = sqlite3.connect('../Test databases/kaggle_testset.db')
 cursor = connection.cursor()
 
 ###insert new value into the DB
